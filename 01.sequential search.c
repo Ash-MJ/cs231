@@ -24,3 +24,19 @@ void main()
 	else
 		printf("%d is not in the list\n",k);
 }
+
+
+
+OUTPUT:
+Enter the size 5
+Enter elements
+3
+1
+8
+2
+5
+Enter number to be searched
+8
+8 is found in the list, at position 3
+
+
