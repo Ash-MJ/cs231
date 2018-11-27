@@ -28,3 +28,18 @@ void main()
 		printf("%d\n", a[i]);
 	}
 }
+
+
+OUTPUT:
+enter number of array elements
+3
+enter array elements
+10
+5
+8
+Sorted array:
+5
+8
+10
+
+
