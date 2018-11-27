@@ -51,3 +51,18 @@ int main() {
 	quickSortIterative(array, 0, size-1);
 	printArray(array, size);
 }
+
+
+OUTPUT:
+Enter size of the array : 3
+Enter array elements
+7
+1
+4
+Sorted Array
+1
+4
+7
+
+
+
