@@ -31,3 +31,16 @@ int main()
 		printf("Element doesnt exist \n");
 	return 0;
 }		
+
+
+
+OUTPUT:
+Enter the size 4
+Enter elements 1
+7
+3
+9
+Enter the element to be searched:7
+element found at location 2 
+
+
