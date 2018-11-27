@@ -46,3 +46,16 @@ void main()
 	for(i=0;i<n;i++)
 		printf("%d \t",a[i]);
 }
+
+
+
+OUTPUT:
+Enter the size of array 
+4
+Enter the elements:1
+7
+3
+6
+
+ The sorted array is:1 	3 	6 	7 	
+
