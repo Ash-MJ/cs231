@@ -5,7 +5,7 @@ int main()
 	printf("enter the size");
    	scanf("%d",&c);
 	printf("Enter elements:");
-  	for(i=0;i<count;i++)
+  	for(i=0;i<c;i++)
       		scanf("%d",&n[i]);
  	for(i=0;i<c;i++)
 	{
@@ -24,3 +24,12 @@ int main()
       	printf(" %d",n[i]);
 	return 0;
 }
+
+OUTPUT:
+enter the size4
+Enter elements:3
+1
+9
+7
+Sorted elements:  1 3 7 9
+
