@@ -28,3 +28,14 @@ void main()
 		}
 
 }
+
+
+OUTPUT:
+Enter the size:4
+Enter the elements1
+3
+2
+7
+After Sorting 
+1237
+
