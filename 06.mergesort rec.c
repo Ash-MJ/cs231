@@ -42,3 +42,13 @@ int main()
 		printf("%d",a[i]);
 	return 0;	
 }
+
+
+OUTPUT:
+Enter number of elements:4
+Enter elements 2
+7
+6
+8
+after sorting:2 6 7 8
+
