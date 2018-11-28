@@ -78,3 +78,43 @@ void main()
     }while(choice==1 || choice==2 || choice==3);
 }
 
+
+OUTPUT:
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 4
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 3
+ 3 <- 4 <-
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 3
+ 4 <-
