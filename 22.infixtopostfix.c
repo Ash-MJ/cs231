@@ -101,3 +101,11 @@ void main()
     postfix(top_op,head_op);
     printf("%s",post);
 }
+
+
+OUTPUT:
+Enter the infix form: ((A+B)*(A-B))
+AB+AB-*
+
+
+
