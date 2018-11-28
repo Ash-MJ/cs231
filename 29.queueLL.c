@@ -61,3 +61,34 @@ void main()
         	}
     	}while(c==1 || c==2 || c==3);
 }
+
+
+OUTPUT:
+
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 1
+Enter element: 3
+
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 33 
+3 <- NULL
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 2
+
+DELETED 3 
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 3
+
+Queue is EMPTY
