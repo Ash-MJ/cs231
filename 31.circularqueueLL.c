@@ -90,8 +90,6 @@ void main()
                     printf("%d <-",temp->data);
                     temp=temp->link;
                 }
-                printf("%d",temp->data);
-
             }
 
         }
