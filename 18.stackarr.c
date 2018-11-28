@@ -71,4 +71,31 @@ int main()
 }
 	
 
+OUTPUT:
+Enter the size of stack:4
 
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+ Enter the Choice:1
+Enter a value to be pushed:2
+
+ Enter the Choice:1
+Enter a value to be pushed:3
+
+ Enter the Choice:3
+
+The elements in stack 
+
+3
+2
+Enter Choice
+ Enter the Choice:2
+
+The popped element is 3
+ Enter the Choice:3
+
+The elements in stack 
+
+2
