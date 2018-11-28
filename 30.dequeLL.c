@@ -111,3 +111,70 @@ void main()
     }while(choice==1 || choice==2 || choice==3 || choice==4 || choice==5);
 
 }
+
+
+OUTPUT:
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 1
+Enter element: 3
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 2
+Enter element: 4
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 5
+3 <->4 <->NULL
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 3
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 4
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 5
+NULL
+
