@@ -58,7 +58,7 @@ int main()
             		}
             		case 4:
             		{
-                		printf("\n\EXIT  ");
+                		printf("\n EXIT  ");
                 		break;
 			}
             		default:
