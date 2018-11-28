@@ -68,3 +68,12 @@ int main() {
 	
 	return (0);
 }
+
+
+
+OUTPUT:
+Enter arithmatic expression : (A+B)/(A*B)
+Entered experssion : (A+B)/(A*B)
+
+
+
