@@ -33,14 +33,13 @@ int main()
 }		
 
 
-
 OUTPUT:
 Enter the size 4
-Enter elements 1
-7
+Enter elements 1 
 3
-9
-Enter the element to be searched:7
-element found at location 2 
+5
+7
+Enter the element to be searched:5
+element found at location 3 
 
 
