@@ -60,3 +60,10 @@ int main()
   }
   printf("%d\n", stack[top]);
 }
+
+
+OUTPUT:
+Enter the postfix expression : 23*6/
+1
+
+
