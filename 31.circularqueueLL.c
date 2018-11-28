@@ -130,5 +130,5 @@ MENU
 2.Delete
 3.Display
 4.Exit
-Enter Choice: 1
+Enter Choice: 2
 queue is empty
