@@ -39,6 +39,6 @@ void main()
             			printf("%dX^%d + ",ptr->coef,ptr->exp);
             		ptr=ptr->link;
         	}
-        	printf("0\n");
+        	printf("0 \n");
     	}
 }
