@@ -129,3 +129,35 @@ void main()
     		}
     		printf("0\n");
 }
+
+
+
+OUTPUT:
+Polynomial 1 
+Enter coefficient: 3
+Enter exponent: 2
+1. Add elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 1
+1. Add elements
+2. Continue
+Enter choice: 2
+polynomial 2 
+Enter coefficient: 3
+Enter exponent: 3
+1. Add elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 2
+Enter exponent: 1
+1. Add elements
+2. Continue
+Enter choice: 2
+F(a) = 3X^2 + 4X^1 + 0
+F(b) = 3X^3 + 2X^1 + 0
+F(r) = 9X^5 + 12X^4 + 6X^3 + 8X^2 + 0
+
+
+
