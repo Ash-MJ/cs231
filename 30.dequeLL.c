@@ -1,7 +1,7 @@
         /*
         30.DEQUE USING LL
         NAME :ASHISH MATHEW JOHN
-	ROLL No. :13
+	 ROLL No. :13
         */
 
         #include<stdio.h>
