@@ -1,5 +1,7 @@
 	/*
 	9.HEAP SORT
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
