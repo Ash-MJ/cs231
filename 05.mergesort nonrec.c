@@ -1,3 +1,7 @@
+/*
+5.MERGE SORT NON-RECURSIVE
+*/
+
 #include<stdio.h>
 #define max 25
 int main()
