@@ -1,3 +1,7 @@
+/*
+10.BINARY SEARCH
+*/
+
 #include<stdio.h>
 int main()
 {
