@@ -1,3 +1,7 @@
+/*
+7.QUICK SORT NON-RECURSIVE
+*/
+
 void swap(int *a, int *b) {
   int temp = *a;
   *a = *b;
