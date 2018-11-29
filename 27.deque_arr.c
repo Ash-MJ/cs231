@@ -1,7 +1,7 @@
         /*
         27.DEQUE USING ARRAY
         NAME :ASHISH MATHEW JOHN
-	ROLL No. :13
+	 ROLL No. :13
         */
 
         #include<stdio.h>
