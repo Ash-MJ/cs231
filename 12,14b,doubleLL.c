@@ -1,3 +1,7 @@
+/*
+12,14b.DOUBLE LL
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
