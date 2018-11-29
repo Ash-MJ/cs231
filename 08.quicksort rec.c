@@ -1,3 +1,7 @@
+/*
+8.QUICK SORT RECURSIVE
+*/
+
 #include<stdio.h>
 void quicksort(int*arr,int l,int h)
 {
