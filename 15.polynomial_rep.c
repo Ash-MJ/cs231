@@ -1,5 +1,7 @@
 	/*
 	15.POLYNOMIAL REPRESENTATION
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
