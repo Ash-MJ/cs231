@@ -1,3 +1,7 @@
+/*
+30.DEQUE USING LL
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
