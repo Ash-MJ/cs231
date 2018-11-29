@@ -1,5 +1,7 @@
 	/*
 	5.MERGE SORT NON-RECURSIVE
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
