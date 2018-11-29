@@ -1,49 +1,49 @@
-/*
-10.BINARY SEARCH
-*/
+	/*
+	10.BINARY SEARCH
+	*/
 
-#include<stdio.h>
-int main()
-{
-	int f=0,l,m,k;
-	int i,n,a[100];
-	printf("Enter the size");
-	scanf("%d",&n);
-	printf("Enter elements");
-	for(i=0;i<n;i++)
+	#include<stdio.h>
+	int main()
 	{
-		scanf("%d",&a[i]);
-	}
-	printf("Enter the element to be searched:");
-	scanf("%d",&k);
-	l=n-1;
-	m=(f+l)/2;
-	while(f<=l)
-	{
-		if(a[m]<k)
-			f=m+1;
-		else if (a[m]==k)
+		int f=0,l,m,k;
+		int i,n,a[100];
+		printf("Enter the size");
+		scanf("%d",&n);
+		printf("Enter elements");
+		for(i=0;i<n;i++)
 		{
-			printf("element found at location %d \n",m+1);
-			break;
+			scanf("%d",&a[i]);
 		}
-		else
-			l=m-1;
-		m=(l+f)/2;
-	}
-	if(f>l)
-		printf("Element doesnt exist \n");
-	return 0;
-}		
+		printf("Enter the element to be searched:");
+		scanf("%d",&k);
+		l=n-1;
+		m=(f+l)/2;
+		while(f<=l)
+		{
+			if(a[m]<k)
+				f=m+1;
+			else if (a[m]==k)
+			{
+				printf("element found at location %d \n",m+1);
+				break;
+			}
+			else
+				l=m-1;
+			m=(l+f)/2;
+		}
+		if(f>l)
+			printf("Element doesnt exist \n");
+		return 0;
+	}		
 
 
-OUTPUT:
-Enter the size 4
-Enter elements 1 
-3
-5
-7
-Enter the element to be searched:5
-element found at location 3 
+	OUTPUT:
+	Enter the size 4
+	Enter elements 1 
+	3
+	5
+	7
+	Enter the element to be searched:5
+	element found at location 3 
 
 
