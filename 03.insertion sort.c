@@ -1,3 +1,7 @@
+/*
+3.INSERTION SORT
+*/
+
 #include<stdio.h>
 void main() 
 {
