@@ -234,3 +234,59 @@ int main() {
   ROOT=NULL;
 	showMenu();
 }
+
+
+
+
+OUTPUT:
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 4
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data of the parent node : 4
+Enter data to be inserted : 5
+Enter which child to be inserted at (L/R) : r R
+Succesfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 2
+Enter data to be searched : 4
+Node found
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 3
+Enter data of the node to be deleted : 5
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 4
+ 4
+
