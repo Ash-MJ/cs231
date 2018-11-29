@@ -1,7 +1,7 @@
     /*
     22.INFIX TO POSTFIX
     NAME :ASHISH MATHEW JOHN
-	ROLL No. :13
+    ROLL No. :13
     */
 
     #include<stdio.h>
