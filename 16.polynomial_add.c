@@ -1,5 +1,6 @@
-
-
+/*
+16.POLYNOMIAL ADDITION
+*/
 
 #include<stdio.h>
 #include<stdlib.h>
