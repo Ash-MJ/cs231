@@ -1,3 +1,7 @@
+/*
+27.DEQUE USING ARRAY
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
