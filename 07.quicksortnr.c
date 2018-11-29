@@ -1,5 +1,7 @@
 	/*
 	7.QUICK SORT NON-RECURSIVE
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	void swap(int *a, int *b) {
