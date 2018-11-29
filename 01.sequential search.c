@@ -1,4 +1,6 @@
-
+/*
+1.SEQUENTIAL SEARCH
+*/
 
 #include<stdio.h>
 void main()
