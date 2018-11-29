@@ -1,5 +1,7 @@
 	/*
 	12,14b.DOUBLE LL
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
