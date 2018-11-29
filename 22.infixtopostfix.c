@@ -1,115 +1,115 @@
-/*
-22.INFIX TO POSTFIX
-*/
+    /*
+    22.INFIX TO POSTFIX
+    */
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+    #include<stdio.h>
+    #include<string.h>
+    #include<stdlib.h>
 
-struct node
-{
-    char value;
-    struct node *link;
-};
-
-int symbol(char x)
-{
-    if(x=='+' || x=='-'||x=='*'||x=='/'||x=='('||x==')')
+    struct node
     {
-        return 1;
-    }   
-    else
-    {
-        return 0;
-    }
-}
-int j=0;
-char post[25];
-void postfix(struct node *y,struct node *head_op)
-{
-    if(y->link!=head_op)
-    {
-        postfix(y->link,head_op);
-        post[j]=y->value;
-        j++;
-    }
-    else
-    {
-        post[j]=y->value;
-        j++;
-    }
-}
-void main()
-{
-    struct node *head_op,*head_sy,*top_op,*top_sy,*temp;
-    char infix[25],x;
-    int i;
+        char value;
+        struct node *link;
+    };
 
-    head_op=(struct node*)malloc(sizeof(struct node));
-    head_op->value=0;
-    head_op->link=NULL;
-    top_op=head_op;
-
-    head_sy=(struct node*)malloc(sizeof(struct node));
-    head_sy->value=0;
-    head_sy->link=NULL;
-    top_sy=head_sy;
-    
-
-    printf("Enter the infix form: ");
-    scanf("%s",infix);
-    for(i=0;i<strlen(infix);i++)
+    int symbol(char x)
     {
-        if(symbol(infix[i])==1)
+        if(x=='+' || x=='-'||x=='*'||x=='/'||x=='('||x==')')
         {
-            if(infix[i]==')')
+            return 1;
+        }   
+        else
+        {
+            return 0;
+        }
+    }
+    int j=0;
+    char post[25];
+    void postfix(struct node *y,struct node *head_op)
+    {
+        if(y->link!=head_op)
+        {
+            postfix(y->link,head_op);
+            post[j]=y->value;
+            j++;
+        }
+        else
+        {
+            post[j]=y->value;
+            j++;
+        }
+    }
+    void main()
+    {
+        struct node *head_op,*head_sy,*top_op,*top_sy,*temp;
+        char infix[25],x;
+        int i;
+
+        head_op=(struct node*)malloc(sizeof(struct node));
+        head_op->value=0;
+        head_op->link=NULL;
+        top_op=head_op;
+
+        head_sy=(struct node*)malloc(sizeof(struct node));
+        head_sy->value=0;
+        head_sy->link=NULL;
+        top_sy=head_sy;
+
+
+        printf("Enter the infix form: ");
+        scanf("%s",infix);
+        for(i=0;i<strlen(infix);i++)
+        {
+            if(symbol(infix[i])==1)
             {
-                while(top_sy->value!='(')
+                if(infix[i]==')')
                 {
-                    x=top_sy->value;
-                    temp=top_sy;
-                    top_sy=top_sy->link;
-                    free(temp);
+                    while(top_sy->value!='(')
+                    {
+                        x=top_sy->value;
+                        temp=top_sy;
+                        top_sy=top_sy->link;
+                        free(temp);
 
-                    temp=(struct node*)malloc(sizeof(struct node));
-                    temp->value=x;
-                    temp->link=top_op;
-                    top_op=temp;
+                        temp=(struct node*)malloc(sizeof(struct node));
+                        temp->value=x;
+                        temp->link=top_op;
+                        top_op=temp;
 
+                    }
+                    if(top_sy->value=='(')
+                    {
+                        temp=top_sy;
+                        top_sy=top_sy->link;
+                        free(temp);
+                    }
                 }
-                if(top_sy->value=='(')
+                else
                 {
-                    temp=top_sy;
-                    top_sy=top_sy->link;
-                    free(temp);
+                    temp=(struct node*)malloc(sizeof(struct node));
+                    temp->value=infix[i];
+                    temp->link=top_sy;
+                    top_sy=temp;
                 }
             }
             else
             {
                 temp=(struct node*)malloc(sizeof(struct node));
                 temp->value=infix[i];
-                temp->link=top_sy;
-                top_sy=temp;
+                temp->link=top_op;
+                top_op=temp;
+
             }
         }
-        else
-        {
-            temp=(struct node*)malloc(sizeof(struct node));
-            temp->value=infix[i];
-            temp->link=top_op;
-            top_op=temp;
 
-        }
+        postfix(top_op,head_op);
+        printf("%s",post);
     }
-    
-    postfix(top_op,head_op);
-    printf("%s",post);
-}
 
 
-OUTPUT:
-Enter the infix form: ((A+B)*(A-B))
-AB+AB-*
+    OUTPUT:
+    Enter the infix form: ((A+B)*(A-B))
+    AB+AB-*
 
 
 
