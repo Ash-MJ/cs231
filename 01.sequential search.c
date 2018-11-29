@@ -1,5 +1,7 @@
 	/*
 	1.SEQUENTIAL SEARCH
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
