@@ -1,3 +1,7 @@
+/*
+6.MERGE SORT RECURSIVE
+*/
+
 #include<stdio.h>
 void merge(int p[20],int l,int m,int h)
 {
