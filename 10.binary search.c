@@ -1,5 +1,7 @@
 	/*
 	10.BINARY SEARCH
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
