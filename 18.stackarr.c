@@ -1,3 +1,7 @@
+/*
+18.STACK USING ARRAY
+*/
+
 #include<stdio.h>
 int stack[50],c,n,top,x,i;
 int main()
