@@ -1,3 +1,7 @@
+/*
+2.SELECTION SORT
+*/
+
 #include<stdio.h>
 int main()
 {
