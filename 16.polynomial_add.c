@@ -1,5 +1,7 @@
 	/*
 	16.POLYNOMIAL ADDITION
+	NAME :ASHISH MATHEW JOHN
+	ROLL No. :13
 	*/
 
 	#include<stdio.h>
