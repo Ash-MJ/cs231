@@ -1,0 +1,299 @@
+Script started on Monday 04 February 2019 03:28:05 PM IST
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ at[K[Kcat>abc
+1
+2
+3
+4
+^Z
+[1]+  Stopped                 cat > abc
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>cg
+567  
+6
+7
+8
+^Z
+[2]+  Stopped                 cat > cg
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ paste abc cg
+1	5
+2	6
+3	7
+4	8
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls[K[Kls
+abc    ceccs17d13.04.02.19  c.txt    [0m[01;34mDocuments[0m  examples.desktop  [01;34mPictures[0m  [01;34mTemplates[0m   [01;34mVideos[0m
+a.txt  cg                   [01;34mDesktop[0m  [01;34mDownloads[0m  [01;34mMusic[0m             [01;34mPublic[0m    typescript
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -lt
+total 56
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 cg
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:28 ceccs17d13.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:24 typescript
+-rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 15:16 c.txt
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 14:56 a.txt
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mMusic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPictures[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPublic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mVideos[0m
+-rw-r--r-- 1 s4d1 s4d1 8980 Feb  4 14:51 examples.desktop
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -ly[Ktr
+total 56
+-rw-r--r-- 1 s4d1 s4d1 8980 Feb  4 14:51 examples.desktop
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [0m[01;34mVideos[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPublic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPictures[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mMusic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDesktop[0m
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 14:56 a.txt
+-rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 15:16 c.txt
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:24 typescript
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:28 ceccs17d13.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 cg
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -l
+total 56
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 14:56 a.txt
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:28 ceccs17d13.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 cg
+-rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 15:16 c.txt
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d1 s4d1 8980 Feb  4 14:51 examples.desktop
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mMusic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPictures[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mPublic[0m
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mTemplates[0m
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 15:24 typescript
+drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mVideos[0m
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>g
+ascdefg      bcdefd g
+jklm
+^Z
+[3]+  Stopped                 cat > g
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat g
+abcdefg
+jklm
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep "abc" g
+[01;31m[Kabc[m[Kdefg
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep "jklm" g
+[01;31m[Kjklm[m[K
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep "123" g
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||='ls -al'
+No command 'alisa' found, did you mean:
+ Command 'alsa' from package 'alsa-base' (main)
+alisa: command not found
+=ls -al: command not found
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alias \\[K[K\[K||='ls -al'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ inali[K[K[K[K[Kunalias \[K||
+> [K> ~/[K /.bash_aliases
+unalias: usage: unalias [-a] name [name ...]
+bash: /home/s4d1: Is a directory
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>abc
+bash: syntax error near unexpected token `||'
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat me[K[K[K>me
+Ashish Mathew John
+^Z
+[4]+  Stopped                 cat > me
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ln -s me ash
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f3 abc
+1
+2
+3
+4
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f2 abc
+1
+2
+3
+4
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f-1[K3
+6
+6
+^Z
+[5]+  Stopped                 cut -f-3
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cs[Kat abc
+1
+2
+3
+4
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f-3
+^Z
+[6]+  Stopped                 cut -f-3
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f3 me
+Ashish Mathew John
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ join me abc
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat me
+Ashish Mathew John
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat abc
+1
+2
+3
+4
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ vat -n abc[1Pc[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kcat -n abc
+     1	1
+     2	2
+     3	3
+     4	4
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat -n h[Kg
+     1	abcdefg
+     2	jklm
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat [K>students
+ah  Ashish
+Allen
+Deepak
+Johan
+Joel
+Amal
+JAthin
+^[[A    ^Z
+[7]+  Stopped                 cat > students
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat students
+Ashish
+Allen
+Deepak
+Johan
+Joel
+Amal
+JAthin
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat -n students
+     1	Ashish
+     2	Allen
+     3	Deepak
+     4	Johan
+     5	Joel
+     6	Amal
+     7	JAthin
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ uname
+Linux
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ unam -a
+No command 'unam' found, did you mean:
+ Command 'nam' from package 'nam' (universe)
+ Command 'unar' from package 'unar' (universe)
+ Command 'uname' from package 'coreutils' (main)
+unam: command not found
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ uname -a
+Linux cec-H110M-S2 4.15.0-39-generic #42~16.04.1-Ubuntu SMP Wed Oct 24 17:09:54 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ if config -a
+> 1
+> 
+> 
+> x[K^C
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cut -f3 fn students
+cut: fn: No such file or directory
+Ashish
+Allen
+Deepak
+Johan
+Joel
+Amal
+JAthin
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ zx[K[Kvi[K[Kcat>d
+asg
+sds
+
+sfs
+
+fdf
+as
+fdf
+
+asfa
+sda
+
+sfa
+^Z
+[8]+  Stopped                 cat > d
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat d
+asg
+sds
+
+sfs
+
+fdf
+as
+fdf
+
+asfa
+sda
+
+sfa
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep'[K '^.' d
+[01;31m[Ka[m[Ksg
+[01;31m[Ks[m[Kds
+[01;31m[Ks[m[Kfs
+[01;31m[Kf[m[Kdf
+[01;31m[Ka[m[Ks
+[01;31m[Kf[m[Kdf
+[01;31m[Ka[m[Ksfa
+[01;31m[Ks[m[Kda
+[01;31m[Ks[m[Kfa
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ awk'[K '{print "\t"$0}' d
+	asg
+	sds
+	
+	sfs
+	
+	fdf
+	as
+	fdf
+	
+	asfa
+	sda
+	
+	sfa
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>f
+1345788 
+1
+3
+4
+2
+7
+9
+z ^Z
+[9]+  Stopped                 cat > f
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>i[Ko
+1
+3
+5
+9
+^Z
+[10]+  Stopped                 cat > o
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ greo[Kp -v-[K -f rank.4[K[K[K[K[K[Kf o
+5
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep '^ '[K[K_' s.d
+grep: s.d: No such file or directory
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep'^-"[K' c[Kd
+grep^-: command not found
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 04 February 2019 04:27:35 PM IST
