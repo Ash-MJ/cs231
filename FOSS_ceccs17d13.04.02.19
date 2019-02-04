@@ -18,10 +18,12 @@ Script started on Monday 04 February 2019 03:28:05 PM IST
 2	6
 3	7
 4	8
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls[K[Kls
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls[K[Kls
 abc    ceccs17d13.04.02.19  c.txt    [0m[01;34mDocuments[0m  examples.desktop  [01;34mPictures[0m  [01;34mTemplates[0m   [01;34mVideos[0m
 a.txt  cg                   [01;34mDesktop[0m  [01;34mDownloads[0m  [01;34mMusic[0m             [01;34mPublic[0m    typescript
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -lt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -lt
 total 56
 -rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 cg
 -rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
@@ -56,7 +58,8 @@ drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 14:52 [01;34mDesktop[0m
 -rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
 -rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 cg
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -l
 total 56
 -rw-rw-r-- 1 s4d1 s4d1    8 Feb  4 15:28 abc
@@ -97,7 +100,8 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||='ls -al'
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alisa ||='ls -al'
 No command 'alisa' found, did you mean:
  Command 'alsa' from package 'alsa-base' (main)
 alisa: command not found
@@ -112,10 +116,12 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ inali[K[K[K[K[Kunalias \[K||
-> [K> ~/[K /.bash_aliases
+> 
+[K> ~/[K /.bash_aliases
 unalias: usage: unalias [-a] name [name ...]
 bash: /home/s4d1: Is a directory
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>abc
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ||>abc
 bash: syntax error near unexpected token `||'
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat me[K[K[K>me
 Ashish Mathew John
@@ -189,7 +195,8 @@ JAthin
      5	Joel
      6	Amal
      7	JAthin
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ uname
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ uname
 Linux
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ unam -a
 No command 'unam' found, did you mean:
